@@ -6,7 +6,6 @@ const PanelStyle = styled.div`
   background-color: white;
   text-align: left;
   padding: 20px 15px;
-  ${props => !props.active ? `display: none;` : null}
 `;
 
 type Props = {
@@ -26,9 +25,7 @@ export default class PanelComponent extends React.PureComponent<Props> {
              aria-labelledby={`react-tabtab-${index}`}
              aria-hidden={false}
              active={active}>
-        {active ?
-          this.props.children
-        : null}
+        {this.props.children}
       </Panel>
     )
   }

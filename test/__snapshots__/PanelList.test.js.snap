@@ -9,16 +9,13 @@ exports[`custom style 1`] = `
         "attrs": undefined,
         "componentStyle": ComponentStyle {
           "componentId": "sc-bdVaJa",
-          "isStatic": false,
-          "lastClassName": "guOOuH",
+          "isStatic": true,
+          "lastClassName": "iIJeYc",
           "rules": Array [
             "
         background-color: white;
         text-align: left;
         padding: 20px 15px;
-        ",
-            [Function],
-            "
       ",
           ],
         },
@@ -43,17 +40,10 @@ exports[`custom style 1`] = `
 `;
 
 exports[`render render multi Panel 1`] = `
-.c1 {
-  background-color: white;
-  text-align: left;
-  padding: 20px 15px;
-}
-
 .c0 {
   background-color: white;
   text-align: left;
   padding: 20px 15px;
-  display: none;
 }
 
 <PanelList
@@ -82,16 +72,13 @@ exports[`render render multi Panel 1`] = `
               "attrs": undefined,
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": false,
+                "isStatic": true,
                 "lastClassName": "c0",
                 "rules": Array [
                   "
               background-color: white;
               text-align: left;
               padding: 20px 15px;
-              ",
-                  [Function],
-                  "
             ",
                 ],
               },
@@ -114,7 +101,11 @@ exports[`render render multi Panel 1`] = `
             className="c0"
             id="react-tabtab-panel-0"
             role="tabpanel"
-          />
+          >
+            <span>
+              panel content
+            </span>
+          </div>
         </StyledComponent>
       </styled.div>
     </PanelComponent>
@@ -140,16 +131,13 @@ exports[`render render multi Panel 1`] = `
               "attrs": undefined,
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": false,
+                "isStatic": true,
                 "lastClassName": "c0",
                 "rules": Array [
                   "
               background-color: white;
               text-align: left;
               padding: 20px 15px;
-              ",
-                  [Function],
-                  "
             ",
                 ],
               },
@@ -169,7 +157,7 @@ exports[`render render multi Panel 1`] = `
           <div
             aria-hidden={false}
             aria-labelledby="react-tabtab-1"
-            className="c1"
+            className="c0"
             id="react-tabtab-panel-1"
             role="tabpanel"
           >
@@ -202,16 +190,13 @@ exports[`render render multi Panel 1`] = `
               "attrs": undefined,
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": false,
+                "isStatic": true,
                 "lastClassName": "c0",
                 "rules": Array [
                   "
               background-color: white;
               text-align: left;
               padding: 20px 15px;
-              ",
-                  [Function],
-                  "
             ",
                 ],
               },
@@ -234,7 +219,11 @@ exports[`render render multi Panel 1`] = `
             className="c0"
             id="react-tabtab-panel-2"
             role="tabpanel"
-          />
+          >
+            <span>
+              panel content
+            </span>
+          </div>
         </StyledComponent>
       </styled.div>
     </PanelComponent>
@@ -275,16 +264,13 @@ exports[`render render one Panel 1`] = `
               "attrs": undefined,
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": false,
+                "isStatic": true,
                 "lastClassName": "c0",
                 "rules": Array [
                   "
               background-color: white;
               text-align: left;
               padding: 20px 15px;
-              ",
-                  [Function],
-                  "
             ",
                 ],
               },

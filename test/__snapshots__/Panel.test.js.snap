@@ -6,5 +6,9 @@ exports[`render Panel 1`] = `
   aria-labelledby="react-tabtab-undefined"
   id="react-tabtab-panel-undefined"
   role="tabpanel"
-/>
+>
+  <span>
+    panel content
+  </span>
+</styled.div>
 `;
