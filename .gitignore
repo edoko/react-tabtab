@@ -1,8 +1,8 @@
 node_modules/
 _gh-pages
-lib
-yarn.lock
+#lib
+#yarn.lock
 .DS_Store
 bundle-stats.html
-dist
+#dist
 coverage
