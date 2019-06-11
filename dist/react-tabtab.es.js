@@ -1015,10 +1015,12 @@ var PanelList = function (_React$PureComponent) {
   return PanelList;
 }(PureComponent);
 
-var _templateObject$3 = taggedTemplateLiteral(['\n  background-color: white;\n  text-align: left;\n  padding: 20px 15px;\n'], ['\n  background-color: white;\n  text-align: left;\n  padding: 20px 15px;\n']);
+var _templateObject$3 = taggedTemplateLiteral(['\n  background-color: white;\n  text-align: left;\n  ', '\n'], ['\n  background-color: white;\n  text-align: left;\n  ', '\n']);
 
 //      
-var PanelStyle = styled.div(_templateObject$3);
+var PanelStyle = styled.div(_templateObject$3, function (props) {
+  return !props.active ? 'visibility: hidden; padding: 0px; height: 0px;' : 'visibility: visible; padding: 20px 15px;';
+});
 
 var PanelComponent = function (_React$PureComponent) {
   inherits(PanelComponent, _React$PureComponent);

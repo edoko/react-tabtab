@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const PanelStyle = styled.div`
   background-color: white;
   text-align: left;
-  padding: 20px 15px;
+  ${props => !props.active ? `visibility: hidden; padding: 0px; height: 0px;` : `visibility: visible; padding: 20px 15px;`}
 `;
 
 type Props = {
