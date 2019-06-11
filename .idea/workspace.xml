@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c75d351-51d7-42e7-918b-126ef44f9881" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/react-tabtab.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react-tabtab.es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/react-tabtab.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react-tabtab.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/DragTabList.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/Panel.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/PanelList.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/Tab.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/TabList.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/TabModal.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__snapshots__/Tabs.test.js.snap" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/.npmignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -28,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Panel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="441">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="e#9#39#0" expanded="true" />
               </folding>
@@ -50,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/docs/components/AddAndClose.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -126,7 +137,7 @@
             <path>
               <item name="react-tabtab" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-tabtab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560242429492</updated>
-      <workItem from="1560242430647" duration="1646000" />
+      <workItem from="1560242430647" duration="1907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1646000" />
+    <option name="totallyTimeSpent" value="1907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -277,14 +288,14 @@
     <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/components/AddAndClose.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -293,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="441">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="e#9#39#0" expanded="true" />
           </folding>

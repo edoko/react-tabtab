@@ -1019,7 +1019,7 @@ var _templateObject$3 = taggedTemplateLiteral(['\n  background-color: white;\n  
 
 //      
 var PanelStyle = styled.div(_templateObject$3, function (props) {
-  return !props.active ? 'visibility: hidden; padding: 0px; height: 0px;' : 'visibility: visible; padding: 20px 15px;';
+  return !props.active ? 'overflow: hidden; padding: 0px; height: 0px;' : 'padding: 20px 15px;';
 });
 
 var PanelComponent = function (_React$PureComponent) {

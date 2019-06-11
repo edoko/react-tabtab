@@ -10,7 +10,7 @@ exports[`custom style 1`] = `
         "componentStyle": ComponentStyle {
           "componentId": "sc-bdVaJa",
           "isStatic": false,
-          "lastClassName": "cfrbrY",
+          "lastClassName": "elbijt",
           "rules": Array [
             "
         background-color: white;
@@ -45,14 +45,13 @@ exports[`render render multi Panel 1`] = `
 .c1 {
   background-color: white;
   text-align: left;
-  visibility: visible;
   padding: 20px 15px;
 }
 
 .c0 {
   background-color: white;
   text-align: left;
-  visibility: hidden;
+  overflow: hidden;
   padding: 0px;
   height: 0px;
 }
@@ -252,7 +251,6 @@ exports[`render render one Panel 1`] = `
 .c0 {
   background-color: white;
   text-align: left;
-  visibility: visible;
   padding: 20px 15px;
 }
 
